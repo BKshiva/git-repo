@@ -5,6 +5,15 @@ command : ssh-keygen.exe  ( 10 :  35.00)
 copy the ssh key and go to git hub and go to settings -- gpg and ssh keys add key and enter the ssh key what you generated and add  and give a git hub password 
 
 
+git remote add origin git@github.com:BKshiva/git-repo.git
+git branch -M main
+git push -u origin main
+
+
+terraform state list
+
+
+
 
 
 
